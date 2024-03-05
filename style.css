@@ -10,6 +10,7 @@
     --cor-de-fundo: #EBECEE;
     --branco: #FFF;
     --cor-principal: #EB9B00;
+    --cor-principal-2: #eba721;
     --azul_degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --azul: #002F52;
@@ -25,4 +26,9 @@ body {
     font-family: var(--fonte-principal);
     font-size: 80px;
     font-weight: 400;
+}
+
+.estilo__botao:hover {
+
+    background: var(--cor-principal-2);
 }
