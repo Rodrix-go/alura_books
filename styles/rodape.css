@@ -13,3 +13,70 @@ hr {
     font-size: 16px;
     font-weight: 400;
 }
+
+.lista__rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__titulo {
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 400;
+
+    }
+
+    .lista__rodape {
+        gap: 10px;
+        display: block;
+    }
+
+
+    .lista__rodape-titulo {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--cinza);
+        margin-bottom: 25px;
+    }
+
+
+    .lista__rodape-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+
+    .lista__rodape-link {
+        text-decoration: none;
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: var(--cinza-2);
+
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+
+    .lista__rodape {
+        border-left: 1px solid var(--cinza-2);
+        padding-left: 1em;
+    }
+
+    .rodape {
+        padding-top: 2em;
+    }
+
+}
