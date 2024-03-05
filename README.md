@@ -1,5 +1,7 @@
 <p align="center">Um site para divulgação do Alura Books, uma plataforma de vendas de livros de tecnologias da Alura.</p>
 
+Acesse o site: <https://rodrix-go.github.io/alura_books/>
+
 ## Tecnologias
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
